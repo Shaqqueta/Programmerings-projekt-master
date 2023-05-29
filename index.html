@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Apsving.io</title>
+  </head>
+  <body onload="Init">
+    <div class="main">
+      <audio controls>
+        <source src="Media/music.mp3" loop id="music" />
+      </audio>
+      <img src="media/sten3_transparent.png" alt="" class="sten" id="sten3" />
+      <img src="media/sten2_transparent.png" alt="" class="sten" id="sten2" />
+      <img
+        src="Media/GameOver.png"
+        alt=""
+        id="gameover"
+        class="gameover noselect"
+      />
+      <img
+        src="Media/WASD & Arrows.png"
+        alt=""
+        id="WASD"
+        class="WASD noselect"
+      />
+
+      <a class="start noselect" id="start">Start</a>
+      <a class="tryagain noselect" id="tryagain" href="">Try Again</a>
+      <h1 id="siffra" class="siffra noselect"></h1>
+      <div class="spel">
+        <canvas id="gameCanvas"></canvas>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
